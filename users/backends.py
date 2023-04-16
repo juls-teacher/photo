@@ -1,7 +1,7 @@
 from django.contrib.auth.backends import BaseBackend
 from django.http import HttpRequest
 
-from models import User
+from users.models import User
 
 
 class EmailAuthBackend(BaseBackend):
